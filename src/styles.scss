@@ -5,7 +5,10 @@
 }
 
 body{
-    padding: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     user-select: none;
 }
 
@@ -14,7 +17,12 @@ body{
     width: 375px;
 
 }
-
+.components-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 .page-container:hover {
     transform: scale(1.02);
